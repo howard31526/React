@@ -1,0 +1,281 @@
+/* Count CSS */
+
+/* .counter-container{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+/* .counter-display{
+    font-size: 200px;
+    color: rgb(65, 65, 145);
+    margin-bottom: 10px;
+    margin-top: 0px;
+} */
+/* .counter-btn{
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: hsl(204, 60%, 60%);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+     轉換箭頭成指標 
+} */
+/* .counter-btn:hover{
+    background-color: hsl(204, 60%, 70%);
+     當游標盤旋到btn時使變亮 
+
+} */
+
+/* Count CSS */
+
+/* Colorpicker css */
+/* body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.color-picker-container{
+    display: flex;
+    flex-direction: column;
+    轉換flex的排版邏輯
+    align-items: center;
+}
+h1{
+    margin: 50px;
+    font-size: 3rem;
+}
+.color-display{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid hsl(0, 0%, 80%);
+    border-radius: 25px;
+    margin-bottom: 25px;
+    transition: 0.25s ease;
+
+}
+.color-display p{
+    color: hsl(0, 0%, 25%);
+    font-size: 1.5rem;
+    text-align: center;
+}
+label{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+input[type="color"]{
+    width: 75px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 3px solid hsl(0, 0, 80% );
+} */
+/* Colorpicker css */
+
+
+/* Todolist css */
+/* body{
+    background-color: #f3dada;
+}
+.to-do-list{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+h2{
+    font-size: 4rem;
+}
+button{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin: 2px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.add-button{
+    background-color: hsl(193, 73%, 46%);
+}
+.add-button:hover{
+    background-color: hsl(193, 73%, 36%);
+}
+.delete-button{
+    background-color: hsl(26, 80%, 52%);
+}
+.delete-button:hover{
+    background-color: hsl(26, 80%, 42%);
+}
+.move-up{
+    background-color: hsl(43, 80%, 52%);
+}
+.move-up:hover{
+    background-color: hsl(43, 80%, 42%);
+}
+.move-down{
+    background-color: hsl(206, 87%, 61%);
+}
+.move-down:hover{
+    background-color: hsl(206, 87%, 51%);
+}
+input[type="text"]{
+    font-size: 1rem;
+    padding: 3px;
+    border: 2px solid hsl(0, 0%, 52%);
+    border-radius: 3px;
+}
+ol{
+    padding: 0;
+}
+li{
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 15px;
+    background-color: hsl(0, 0%, 92%);
+    margin-bottom: 10px;
+    border: 3px solid hsl(0, 1%, 85%);
+    border-radius: 3px;
+} */
+/* Todolist css */
+
+/* DigitalCloack css */
+/* body{
+    background-image: url(assets/bgcimage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    margin-top: 40px;
+}
+.clock-container{
+    backdrop-filter: blur(5px);
+    width: 100vh;
+    padding: 8px 0;
+}
+.clock{
+    color:hsl(34, 39%, 74%);
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    text-shadow: 3px 3px 5px hsla(32, 32%, 41%, 0.75);
+} */
+
+/* DigitalCloack css */
+
+/* ComponentA-B-C-D css */
+/* .box{
+    border: 3px solid;
+    padding: 25px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-weight: bold;
+    color: #2878da;
+    font-size: 30px;
+
+} */
+/* ComponentA-B-C-D css */
+
+/* StopWatch css */
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsla(180, 100%, 97%, 0.938);
+}
+.stopwatch{
+    background-image: url(assets/bgc2.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    align-items: center;
+    background-attachment: cover;
+    background-size: contain; 
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid;
+    border-radius: 50px;
+    padding: 30px;
+    width: 500px;
+    height: 700px;
+}
+.display{
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: hsl(33, 68%, 65%);
+    text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.767);
+}
+.controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+.start-btn{
+    background-color: hsl(179, 60%, 63%);
+}
+.start-btn:hover{
+    background-color: hsl(179, 44%, 49%);
+}
+.stop-btn{
+    background-color: hsl(32, 71%, 67%);
+}
+.stop-btn:hover{
+    background-color: hsl(32, 71%, 58%);
+}
+.reset-btn{
+    background-color: hsl(337, 80%, 73%);
+}
+.reset-btn:hover{
+    background-color: hsl(337, 80%, 62%);
+}
+.show{
+    align-items: center;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.show p{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: rgb(165, 112, 68);
+}
+.Record{
+    width: 400px;
+    height: 450px;
+    background: hsla(40, 43%, 86%, 0.4);
+    border: none;
+    border-radius: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    overflow-y: auto;
+}
+.Record ul{
+    margin-top: 0px;
+}
+/* StopWatch css */
